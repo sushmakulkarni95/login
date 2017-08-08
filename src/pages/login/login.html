@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form>
+ 
+ 
+
+  <ion-list>
+  <ion-item>
+    <ion-label >Username</ion-label>
+    <ion-input type="text" value=""></ion-input>
+    </ion-item>
+
+
+    <ion-item>
+    <ion-label >Password</ion-label>
+    <ion-input type="password"></ion-input>
+    </ion-item>
+  
+
+<button  ion-button color="dark" id = "cordovaDevice" (click)="populateDeviceDetails()">CORDOVA DEVICE</button>
+  <button ion-button color="secondary" (click)="login()">LOGIN</button>
+  <button ion-button color="denger" (click)="register()">REGISTER</button> 
+  
+  </ion-list>
+  </form>
+
+  
+</ion-content>
